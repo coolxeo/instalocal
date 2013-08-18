@@ -1,0 +1,7 @@
+<ul>
+<% _.each(json.data, function(item) { %>
+	<li>
+		<a href="http://www.instagram.com/<%= item.user.username%>" target="_blank"><img src="<%= item.images.thumbnail.url%>" title="<%= item.caption ? item.caption.text : '' %>"/></a>
+	</li>
+<% }); %>
+</ul>

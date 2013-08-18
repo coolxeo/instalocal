@@ -1,0 +1,9 @@
+body {
+	background-color: #EEE;
+}
+
+ul li {
+	list-style: none;
+	margin: 10px;
+	float: left;
+}
